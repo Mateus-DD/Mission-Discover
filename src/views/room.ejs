@@ -16,6 +16,8 @@
     rel="stylesheet">
 
   <title>Rocket.Q - Perguntas e Respostas</title>
+
+  <script src="/scripts/main.js" defer type="module"></script>
 </head>
 
 <body>
@@ -23,18 +25,18 @@
     <header>
 
       <a href="#">
-        <img src="/assets/logo.svg" alt="logo Rocket.Q">
+        <img src="/images/logo.svg" alt="logo Rocket.Q">
       </a>
 
       <div class="buttons">
 
         <div class="button outlined">
           #323243
-          <img src="/assets/copy.svg" alt="Copiar número da sala">
+          <img src="/images/copy.svg" alt="Copiar número da sala">
         </div>
 
         <a class="button" href="#">
-          <img src="/assets/users-white.svg" alt="Criar sala">
+          <img src="/images/users-white.svg" alt="Criar sala">
           Criar sala
         </a>
 
@@ -50,7 +52,7 @@
 
           <footer>
             <div>
-              <img src="/assets/lock.svg" alt="Cadeado">
+              <img src="/images/lock.svg" alt="Cadeado">
               Está pergunta é anônima
             </div>
             <button>Enviar</button>
@@ -68,19 +70,19 @@
           <div class="question-wrapper">
             <div class="question-content">
               <div class="user">
-                <img src="/assets/user.svg" alt="avatar">
+                <img src="/images/user.svg" alt="avatar">
               </div>
               <div class="question">
                 <p>Qual a diferença entre var, let e const no Javascript?</p>
               </div>
             </div>
-            <div class="actions" class="check">
-              <a href="#">
-                <img src="/assets/check.svg" alt="Marcar como lida">
+            <div class="actions" >
+              <a href="#" class="check">
+                <img src="/images/check.svg" alt="Marcar como lida">
                 Marcar como lido
               </a>
               <a href="#" class="delete">
-                <img src="/assets/trash.svg" alt="Excluir">
+                <img src="/images/trash.svg" alt="Excluir">
                 Excluir
               </a>
             </div>
@@ -90,19 +92,19 @@
           <div class="question-wrapper">
             <div class="question-content">
               <div class="user">
-                <img src="/assets/user.svg" alt="avatar">
+                <img src="/images/user.svg" alt="avatar">
               </div>
               <div class="question">
                 <p>O que é Javascript?</p>
               </div>
             </div>
-            <div class="actions" class="check">
-              <a href="#">
-                <img src="/assets/check.svg" alt="Marcar como lida">
+            <div class="actions" >
+              <a href="#" class="check">
+                <img src="/images/check.svg" alt="Marcar como lida">
                 Marcar como lido
               </a>
               <a href="#" class="delete">
-                <img src="/assets/trash.svg" alt="Excluir">
+                <img src="/images/trash.svg" alt="Excluir">
                 Excluir
               </a>
             </div>
@@ -112,19 +114,19 @@
           <div class="question-wrapper read">
             <div class="question-content">
               <div class="user">
-                <img src="/assets/user.svg" alt="avatar">
+                <img src="/images/user.svg" alt="avatar">
               </div>
               <div class="question">
                 <p>O que é typescript?</p>
               </div>
             </div>
-            <div class="actions" class="check">
-            <a href="#">
-                <img src="/assets/check.svg" alt="Marcar como lida">
+            <div class="actions" >
+            <a href="#" class="check">
+                <img src="/images/check.svg" alt="Marcar como lida">
                 Marcar como lido
               </a>
               <a href="#" class="delete">
-                <img src="/assets/trash.svg" alt="Excluir">
+                <img src="/images/trash.svg" alt="Excluir">
                 Excluir
               </a>
             </div>
@@ -146,13 +148,14 @@
         <input type="password" id="password" name="password" placeholder="Digite sua senha">
 
         <div class="buttons">
-          <div class="button grey">Cancelar</div>
+          <div class="button grey cancel">Cancelar</div>
           <button class="red">Sim, excluir</button>
         </div>
       </form>
     </div>
   </div>
 
+  
 </body>
 
 </html>

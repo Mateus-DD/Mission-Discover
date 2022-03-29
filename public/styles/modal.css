@@ -1,7 +1,4 @@
-.modal-wrapper.active {
-  visibility: visible;
-  opacity: 1;
-}
+
 
 .modal-wrapper {
   position: fixed;
@@ -15,6 +12,11 @@
   visibility: hidden;
   opacity: 0;
 
+}
+
+.modal-wrapper.active {
+  visibility: visible;
+  opacity: 1;
 }
 
 .modal-wrapper .modal {
